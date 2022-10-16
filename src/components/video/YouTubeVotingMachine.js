@@ -4,7 +4,7 @@ import styles from "./YouTubeVotingMachine.module.css";
 export default function YouTubeVotingMachine (props) {
     return (
         <div className={styles.container}>
-            <h1>vote</h1>
+            <div className={styles.background}></div>
             <YouTubeForVoting url="https://www.youtube.com/watch?v=RgKAFK5djSk"/>
             <YouTubeForVoting url="https://www.youtube.com/watch?v=DeumyOzKqgI&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbAVMOpQFFLBMEPI&index=4" />
             <YouTubeForVoting url="https://www.youtube.com/watch?v=odZCQhibzGM" />
