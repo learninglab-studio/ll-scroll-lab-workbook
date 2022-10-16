@@ -1,10 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Footer from '../src/components/layout/Footer'
+
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='page'>
+      <div className={styles.container}>
       <Head>
         <title>Scroll Lab Workbook</title>
         <meta name="description" content="A place to try out scrollytelling with code." />
@@ -15,9 +19,9 @@ export default function Home() {
          scroll lab workbook
         </h1>
       </main>
-      <footer className={styles.footer}>
-        <span>links will go here</span>
-      </footer>
+      <Footer />
     </div>
+    </div>
+    
   )
 }
